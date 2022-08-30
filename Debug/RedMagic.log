@@ -1,0 +1,36 @@
+﻿  Transform.cpp
+  Sprite.cpp
+  SceneManager.cpp
+  Scene.cpp
+  RigidBody2D.cpp
+e:\física para jogos digitais\projeto grau a\redmagic\rigidbody2d.cpp(89): warning C4244: 'argument': conversion from 'float32' to 'int32', possible loss of data
+  Resources.cpp
+  Renderer.cpp
+  Physics.cpp
+  InputManager.cpp
+  Input.cpp
+e:\física para jogos digitais\projeto grau a\redmagic\input.cpp(39): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  GameObject.cpp
+e:\física para jogos digitais\projeto grau a\redmagic\gameobject.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\gameobject.cpp(111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\gameobject.cpp(215): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\gameobject.cpp(226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\gameobject.cpp(232): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameLogic.cpp
+  FpsLimiter.cpp
+e:\física para jogos digitais\projeto grau a\redmagic\fpslimiter.cpp(26): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\fpslimiter.cpp(43): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+e:\física para jogos digitais\projeto grau a\redmagic\fpslimiter.cpp(46): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+  Engine.cpp
+e:\física para jogos digitais\projeto grau a\redmagic\engine.cpp(109): warning C4305: '+=': truncation from 'double' to 'float'
+  Generating Code...
+e:\física para jogos digitais\projeto grau a\redmagic\scenemanager.h(30): warning C4715: 'RedMagic::SceneManager::GetCurrentScene': not all control paths return a value
+e:\física para jogos digitais\projeto grau a\redmagic\scene.h(46): warning C4715: 'RedMagic::Scene::GetGameObjects': not all control paths return a value
+e:\física para jogos digitais\projeto grau a\redmagic\scenemanager.h(30): warning C4715: 'RedMagic::SceneManager::GetCurrentScene': not all control paths return a value
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+SDL2.lib(SDL2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+SDL2_image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+SDL2_image.lib(SDL2_image.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  RedMagic.vcxproj -> E:\Física para Jogos Digitais\Projeto Grau A\RedMagic\Debug\RedMagic.lib

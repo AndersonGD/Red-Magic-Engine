@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{fbce694e-903a-4eb1-b840-cc09dfc153bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object">
+      <UniqueIdentifier>{bc75a0d2-b670-4539-b689-73b79bce38cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object\Components">
+      <UniqueIdentifier>{bba91adf-2029-43cd-adc0-286f919aa81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Systems">
+      <UniqueIdentifier>{5115bc67-c57c-4789-ab0f-115a7ec23777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{96f0d276-a47c-4cbe-800f-e0d0137f41ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{c8bd7697-6aa9-4b73-a4fe-d0db7d6228b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody2D.cpp">
+      <Filter>Game Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Game Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsLimiter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <Filter>Game Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody2D.h">
+      <Filter>Game Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Game Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsLimiter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
